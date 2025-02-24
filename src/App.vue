@@ -1,5 +1,5 @@
 <script setup>
-  import Title from './components/Title.vue';
+  import TitlePage from './components/Title.vue';
   import Portfolio from './components/Portfolio.vue';
   import About from './components/About.vue';
 </script>
@@ -27,7 +27,7 @@
       </div>
     </div>
   </nav>
-  <Title />   
+  <TitlePage />   
   <Portfolio />
   <About />
 </template>
