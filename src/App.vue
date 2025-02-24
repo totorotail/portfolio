@@ -15,13 +15,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#title">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
         </ul>
       </div>
