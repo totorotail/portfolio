@@ -15,7 +15,7 @@
   </template>
     
   <script setup>
-    const title = "Hello,<br> I'm MK"; 
+    const title = "Hello,<br> I'm Sample"; 
   
   </script>
     
