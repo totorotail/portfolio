@@ -1,7 +1,4 @@
 <script setup>
-  import TitlePage from './components/Title.vue';
-  import Portfolio from './components/Portfolio.vue';
-  import About from './components/About.vue';
 </script>
 
 <template>
@@ -14,23 +11,36 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#title">Home</a>
+            <li class="nav-item">
+            <router-link 
+              class="nav-link active" 
+              aria-current="page" 
+              to="/">Home
+            </router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
+            <router-link 
+              class="nav-link" 
+              to="/portfolio"
+            >Portfolio</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
+            <router-link 
+              class="nav-link" 
+              to="/about"
+            >About</router-link>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <TitlePage />   
-  <Portfolio />
-  <About />
+
+  <router-view />
+
 </template>
 
 <style scoped lang="scss">
+  .navbar {
+    .nav-item { margin-left: 2em; }
+  }
 </style>
